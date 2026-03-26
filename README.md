@@ -25,3 +25,7 @@ To compare rule-based AI (ELIZA, 1960s) with modern generative AI (LLM, 2020s) a
 ### Prerequisites
 ```bash
 pip install transformers torch accelerate
+
+## ⚠️ Local LLM Note
+
+Due to SSL certificate issues with the MSYS Python environment, the local LLM installation encountered package conflicts. The comparison was successfully completed using a cloud-based modern LLM (ChatGPT/Gemini) with identical prompts. All responses are documented in `LLM_COMPARISON.md`.
