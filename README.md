@@ -1,46 +1,27 @@
-\# AI Past vs Present Comparison
 
 
+# AI Past vs Present: ELIZA vs Modern LLM
 
-\## Overview
+## 📚 CMPG 313 - Artificial Intelligence Assignment
 
-Comparing ELIZA (1960s rule-based AI) with Modern LLM (2020s neural network)
+### 🎯 Objective
+To compare rule-based AI (ELIZA, 1960s) with modern generative AI (LLM, 2020s) and understand the evolution of artificial intelligence.
 
+---
 
+## 📁 Project Files
 
-\## Files
+| File | Description |
+|------|-------------|
+| `eliza_custom.py` | Custom ELIZA implementation with 5+ modified rules |
+| `LLM_simple.py` | Modern LLM using Qwen2.5-1.5B-Instruct |
+| `compare_simple.py` | Side-by-side comparison script |
+| `test_setup.py` | Setup verification script |
 
-\- `eliza\_custom.py` - Custom ELIZA implementation with 5+ modified rules
+---
 
-\- `LLM\_simple.py` - Qwen2.5-1.5B-Instruct language model
+## 🚀 How to Run
 
-\- `compare\_simple.py` - Side-by-side comparison script
-
-
-
-\## Test Prompts Used
-
-1\. Hello
-
-2\. My name is David
-
-3\. I feel stressed
-
-4\. I am tired
-
-5\. Because I have exams
-
-6\. My mother is strict
-
-7\. I need more sleep
-
-
-
-\## Key Findings
-
-\- \*\*ELIZA\*\*: Fast (∼50ms), pattern-based, no memory, simple responses
-
-\- \*\*LLM\*\*: Slower (∼2000ms), contextual, nuanced, maintains conversation flow
-
-\- \*\*Difference\*\*: LLM shows true understanding while ELIZA simulates through pattern matching
-
+### Prerequisites
+```bash
+pip install transformers torch accelerate
